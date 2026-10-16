@@ -1,0 +1,99 @@
+[
+ {
+  "id": "bharian",
+  "name": "Berita Harian",
+  "lang": "ms",
+  "country": "MY",
+  "type": "rss",
+  "url": "https://www.bharian.com.my/feed"
+ },
+ {
+  "id": "hmetro",
+  "name": "Harian Metro",
+  "lang": "ms",
+  "country": "MY",
+  "type": "rss",
+  "url": "https://www.hmetro.com.my/feed"
+ },
+ {
+  "id": "sinarharian",
+  "name": "Sinar Harian",
+  "lang": "ms",
+  "country": "MY",
+  "type": "rss",
+  "url": "https://www.sinarharian.com.my/rssFeed/211"
+ },
+ {
+  "id": "utusan",
+  "name": "Utusan Malaysia",
+  "lang": "ms",
+  "country": "MY",
+  "type": "rss",
+  "url": "https://www.utusan.com.my/feed/"
+ },
+ {
+  "id": "kosmo",
+  "name": "Kosmo!",
+  "lang": "ms",
+  "country": "MY",
+  "type": "rss",
+  "url": "https://www.kosmo.com.my/feed/"
+ },
+ {
+  "id": "malaysiakini_bm",
+  "name": "Malaysiakini (BM)",
+  "lang": "ms",
+  "country": "MY",
+  "type": "rss",
+  "url": "https://www.malaysiakini.com/rss/my/news.rss"
+ },
+ {
+  "id": "sinchew",
+  "name": "Sin Chew Daily 星洲日报",
+  "lang": "zh",
+  "country": "MY",
+  "type": "html",
+  "url": "https://www.sinchew.com.my/",
+  "pattern": "^https://www\\.sinchew\\.com\\.my/news/(\\d{8})/(nation|politics|international|china|metro|opinion|finance)/\\d+$"
+ },
+ {
+  "id": "orientaldaily",
+  "name": "Oriental Daily 东方日报",
+  "lang": "zh",
+  "country": "MY",
+  "type": "html",
+  "url": "https://www.orientaldaily.com.my/news/nation",
+  "pattern": "^https://www\\.orientaldaily\\.com\\.my/news/(nation|politics|central|international|china)/(\\d{4}/\\d{2}/\\d{2})/\\d+"
+ },
+ {
+  "id": "zaobao_sg",
+  "name": "Lianhe Zaobao 联合早报 (Singapore)",
+  "lang": "zh",
+  "country": "SG",
+  "type": "html",
+  "url": "https://www.zaobao.com.sg/news/singapore",
+  "base": "https://www.zaobao.com.sg",
+  "pattern": "^https://www\\.zaobao\\.com\\.sg/news/(singapore|sea)/story(\\d{8})-\\d+$"
+ },
+ {
+  "id": "beritaharian_sg",
+  "name": "Berita Harian Singapura",
+  "lang": "ms",
+  "country": "SG",
+  "type": "html",
+  "url": "https://www.beritaharian.sg/singapura",
+  "base": "https://www.beritaharian.sg",
+  "pattern": "^https://www\\.beritaharian\\.sg/singapura/[a-z0-9-]{15,}$",
+  "min_title_words": 4
+ },
+ {
+  "id": "8world",
+  "name": "8world 8视界 (Mediacorp)",
+  "lang": "zh",
+  "country": "SG",
+  "type": "html",
+  "url": "https://www.8world.com/singapore",
+  "base": "https://www.8world.com",
+  "pattern": "^https://www\\.8world\\.com/(singapore|southeast-asia)/[a-z0-9-]+-\\d{6,}$"
+ }
+]
